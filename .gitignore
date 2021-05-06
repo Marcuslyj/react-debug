@@ -7,16 +7,18 @@ scripts/flow/*/.flowconfig
 .grunt
 _SpecRunner.html
 __benchmarks__
-!build/
-build/*
+# !build/
+# build/*
 !build/node_modules/
-build/node_modules/*
-!build/node_modules/react/
-build/node_modules/react/*
-!build/node_modules/react/cjs/
-!build/node_modules/react-dom/
-build/node_modules/react-dom/*
-!build/node_modules/react-dom/cjs/
+!build/node_modules/*
+# !build/node_modules/react/
+# build/node_modules/react/*
+# !build/node_modules/react/cjs/
+# !build/node_modules/react-dom/
+# build/node_modules/react-dom/*
+# build/node_modules/jest-react/*
+# build/node_modules/scheduler/*
+# !build/node_modules/react-dom/cjs/
 remote-repo/
 coverage/
 .module-cache
