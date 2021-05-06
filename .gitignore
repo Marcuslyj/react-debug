@@ -7,7 +7,13 @@ scripts/flow/*/.flowconfig
 .grunt
 _SpecRunner.html
 __benchmarks__
-build/
+!build/
+build/*
+!build/node_modules/
+build/node_modules/*
+!build/node_modules/react/
+build/node_modules/react/*
+!build/node_modules/react/cjs/
 remote-repo/
 coverage/
 .module-cache
